@@ -1,5 +1,7 @@
 def multiplo(numero):
     if (numero % 3 == 0):
-        return "Es multiplo de 3"
+        return True
     else:
-        return "No s multiplo de 3"
+        return False
+num = int(input("dime un numero"))
+print(multiplo(num))
